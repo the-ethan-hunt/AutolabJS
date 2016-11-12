@@ -1,0 +1,8 @@
+---
+ansible_connection: local
+ansible_python_interpreter: /usr/bin/python2
+gitlab_hostname: localhost
+gitlab_password: 12345678
+port:
+  - 8082
+  - 8083

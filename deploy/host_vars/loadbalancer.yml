@@ -1,0 +1,6 @@
+---
+ansible_connection: local
+ansible_python_interpreter: /usr/bin/python2
+submissions_dir: ../load_balancer/submissions
+gitlab_hostname: localhost
+gitlab_password: 12345678
