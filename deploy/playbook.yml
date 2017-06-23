@@ -3,8 +3,7 @@
   gather_facts: false
   become: yes
   tasks:
-    - raw: which python || apt-get update
-    - raw: (which python && which aptitude) || apt-get install -y python python-apt aptitude
+    - raw: which python || apt-get install -y python
 
 # Note: We assume main server has ssh open on port 2222
 - hosts: mysql
